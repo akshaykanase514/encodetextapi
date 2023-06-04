@@ -219,6 +219,10 @@ def decode_endpoint():
 
     return jsonify({'decoded_text': decoded_text})
 
+def get_product():
+    return "get product "
+
+
 
 if __name__ == '__main__':
     app.run()
