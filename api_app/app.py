@@ -222,6 +222,8 @@ def decode_endpoint():
 def get_product():
     return "get product "
 
+def get_name():
+    return "get name"
 
 
 if __name__ == '__main__':
